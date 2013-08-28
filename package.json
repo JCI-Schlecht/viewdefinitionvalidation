@@ -1,0 +1,25 @@
+{
+    "name" : "viewdefvalidation",
+    "version" : "0.0.0",
+    "author" : "Johnson Controls, Inc",
+    "description" : "Validation Package Module",
+    "main" : "./validation.js",
+    "repository" : {
+        "url" : ""
+    },
+    "bin" : {
+        "samplemodule" : "./bin/samplemodule.js"
+    },
+    "dependencies" : {
+        "JSV"  : "4.0.x",
+        "wrench": "1.5.x"
+    },
+    "devDependencies" : {
+    },
+    "engine" : {
+        "node": "0.10.x"
+    },
+    "scripts" : {
+        "start" : "node validation.js"
+    }
+}

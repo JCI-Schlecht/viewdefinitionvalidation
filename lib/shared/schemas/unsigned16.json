@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-03/schema#",
+  "id": "http://www.jci.com/schemas/JSON/unsigned16.json",
+  "description": "Unsigned 16 bit integer (used for things like BACnet attribute id, enum set id)",
+  "type": "integer",
+  "minimum": 0,
+  "maximum": 65535
+}

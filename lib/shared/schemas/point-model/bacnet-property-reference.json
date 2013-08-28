@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-03/schema#",
+  "id": "http://www.jci.com/schemas/JSON/point-model/bacnet-property-reference.json",
+  "description": "Identifier for an object attribute via jci oid and attribute property number",
+  "type": "object",
+  "properties": {
+    "bacoid": {
+      "type":
+      [
+        {"$ref": "http://www.jci.com/schemas/JSON/jci-oid.json"}
+      ],
+      "description": "Object identifier to the object containing the attribute of interest",
+      "required": true
+    },
+    "attributeId": {
+      "type":
+      [
+        {"$ref": "http://www.jci.com/schemas/JSON/unsigned16.json"}
+      ],
+      "description": "Id of the attribute of interest",
+      "required": true
+    }
+  }
+}
